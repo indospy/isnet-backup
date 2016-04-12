@@ -1,7 +1,7 @@
 # Site settings
 title: Indospy.net
 url: "http://indospy.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "isnet-backup/" 
+baseurl: "" 
 
 #timezone: Asia/Chongqing
 description: >

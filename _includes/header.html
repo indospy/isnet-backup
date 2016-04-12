@@ -1,0 +1,12 @@
+<header class="header">
+  <div class="wrapper">
+    <a class="site-title" href="{{ site.baseurl }}/"><img border="0" alt="Indospy" src="{{ site.baseurl }}/img/logis.png"></a> 
+    <nav class="site-nav">
+      {% for page in site.pages %}
+        {% if page.title and page.public %}
+        <a class="btn btn-danger" href="{{ page.url | prepend: site.baseurl }}"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span> {{ page.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+</header>
